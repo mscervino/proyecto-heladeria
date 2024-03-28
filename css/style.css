@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --colorPrincipal: #ff204E;
+    --colorSecundario: #5d0e41;
+    --colorTerciario: #00224D;
+
+}
+
+body{
+    font-family: "Dosis", sans-serif;
+    background-color: var(--colorPrincipal);
+}
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.padre{
+    display: flex;
+    background-color: var(--colorSecundario);
+    height: 550px;
+    padding: 20px;
+    gap: 5px;
+}
+.hijo{
+    background-color: var(--colorTerciario);
+    font-size: 18px;
+    color: #eee;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
